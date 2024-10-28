@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>ورود به حساب کاربری</h1>
-        <form>
+        <form id="myForm">
             <div class="input-group">
                 <label for="username">نام کاربری</label>
                 <input type="text" id="username" required>
@@ -21,5 +21,21 @@
             <button type="submit" class="btn">ورود</button>
         </form>
     </div>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // جلوگیری از ارسال پیش‌فرض فرم
+            
+            // بررسی کامل بودن فیلدها
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            if (username && password) {
+                // اگر فیلدها پر بودند، به صفحه جدید بروید
+                window.location.href = "newPage.html"; // آدرس صفحه جدید
+            } else {
+                alert("لطفا همه فیلدها را پر کنید.");
+            }
+        });
+    </script>
 </body>
 </html>
