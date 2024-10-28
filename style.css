@@ -62,8 +62,39 @@ input:focus {
     cursor: pointer;
     font-size: 16px;
     font-family: font1;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .btn:hover {
     background-color: #f0e68c;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_down{
+    background-color: #121212;
+    margin-top: 10px;
+}
+
+.container_down_a1, .container_down_a2{
+    text-decoration: none;
+    margin: 0 50px;
+}
+
+.container_down_taxt1{
+    color: #f0e68c;
+    font-size: 14px;
+    font-family: font1;
+}
+
+.container_down_taxt2{
+    color: #0077ff;
+    font-size: 14px;
+    font-family: font1;
+    text-align: left;
 }
