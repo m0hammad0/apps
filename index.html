@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>ورود به حساب کاربری</h1>
-        <form id="myForm">
-            <div class="input-group">
-                <label for="username">نام کاربری</label>
-                <input type="text" id="username" required>
-            </div>
-            <div class="input-group">
-                <label for="password">کلمه عبور</label>
-                <input type="password" id="password" required>
-            </div>
-            <button type="submit" class="btn">ورود</button>
-        </form>
+    <div class="login">
+        <div class="container">
+            <h1>ورود به حساب کاربری</h1>
+            <form id="myForm">
+                <div class="input-group">
+                    <label for="username">نام کاربری</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">کلمه عبور</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="btn">ورود</button>
+            </form>
+        </div>
+        <div class="container_down">
+            <a class="container_down_a1" href="#"><span class="container_down_taxt1">ورود بدون حساب کاربری</span></a>
+            <a class="container_down_a2" href="#"><apan class="container_down_taxt2">ثبت نام</span></a>
+        </div>
     </div>
     <script>
         document.getElementById("myForm").addEventListener("submit", function(event) {
