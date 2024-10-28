@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>صفحه ورود</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form class="login">
-        <h1>صفحه ورود</h1>
-        <input type="text" placeholder="نام کاربری" />
-        <input type="password" placeholder="رمز عبور">
-        <span>
-            <input type="checkbox" id="rememberme" />
-            <label for="rememberme">مرا بخاطر بسپار</label>
-        </span>
-        <input type="submit" value="ورود">
-    </form>
+    <div class="container">
+        <h1>ورود به حساب کاربری</h1>
+        <form>
+            <div class="input-group">
+                <label for="username">نام کاربری</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">کلمه عبور</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit" class="btn">ورود</button>
+        </form>
+    </div>
 </body>
 </html>
