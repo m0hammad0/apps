@@ -25,12 +25,13 @@ body {
 }
 
 .menu-container {
-    margin-top: 8px;
+    margin-top: 10px;
     transform: translateX(-50%);
     display: flex;
     align-items: right;
     justify-content: right;
     overflow: hidden;
+    float: right;
 }
 
 .menu-container.active {
