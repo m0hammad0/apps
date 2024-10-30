@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login without an account</title>
+    <link rel="stylesheet" href="css/login1 style.css">
+</head>
+<body>
+    <div class="login2">
+        <div class="container">
+            <!--h1>ورود بدون حساب کاربری</h1-->
+            <form id="myForm">
+                <div class="input-group">
+                    <label for="code">کد اشتراک</label>
+                    <input type="text" id="code" required>
+                </div>
+                <button type="submit" class="btn" id="login_button">ورود</button>
+            </form>
+        </div>
+        <div class="container_down">
+            <a class="log2_container_down_a1" href="../index.html"><span class="log2_container_down_taxt1">برگشت</span></a>
+            <!--a class="log2_container_down_a2" href="sign up.html"><apan class="log2_container_down_taxt2">ثبت نام</span></a-->
+        </div>
+    </div>
+    <script>
+        document.getElementById('login_button').onclick = function() {
+            var code = document.getElementById('code').value;
+
+            if (code === '4321' || code === '1234') {
+                window.open('home page/home001.html');
+            } else {
+                alert("کد اشتراک پیدا نشد !")
+            }
+        };
+    </script>
+</body>
+</html>
