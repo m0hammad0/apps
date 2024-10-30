@@ -3,11 +3,11 @@
     src: url("../font/font1.woff2") format("woff2");
 }
 body {
-    background-color: #15141a;
+    background-color: #0d1017;
 }
 .home_header1 {
-    background-color: black;
-    height: 50px;
+    background-color: #010409;
+    height: 60px;
     position: fixed;
     top: 0;
     bottom: 0;
