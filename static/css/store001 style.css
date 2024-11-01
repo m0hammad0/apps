@@ -159,3 +159,12 @@ a {
         right: 22px;
     }
 }
+
+@media (max-width: 430px) {
+    .apps1-button3 {
+        margin: 5px 5px;
+    }
+    .apps1-button6 {
+        margin: 5px 5px;
+    }
+}
