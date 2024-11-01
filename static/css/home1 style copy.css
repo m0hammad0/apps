@@ -3,11 +3,11 @@
     src: url("../font/font1.woff2") format("woff2");
 }
 body {
-    background-color: #0d1017;
+    background-color: #15141a;
 }
 .home_header1 {
-    background-color: #010409;
-    height: 60px;
+    background-color: black;
+    height: 50px;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -31,7 +31,6 @@ body {
     align-items: right;
     justify-content: right;
     overflow: hidden;
-    float: right;
 }
 
 .menu-container.active {
@@ -40,11 +39,11 @@ body {
 
 .button {
     background-color: #000000;
-    margin-right: 20px;
+    margin-right: 15px;
     color: #ffffff;
-    font-size: 25px;
-    padding: 10px 0px;
-    width: 8px;
+    font-size: 20px;
+    padding: 8px 13px;
+    width: 1px;
     line-height: 30px;
     display: flex;
     align-items: center;
@@ -65,8 +64,7 @@ body {
 
 ul {
     position: absolute;
-    top: 60px;
-    right: -10px;
+    top: 50px;
     background: #1b1b1b;
     list-style: none;
     width: 150px;
@@ -128,17 +126,4 @@ ul li a {
 
 ul li:hover a {
     color: #ffd700;
-}
-
-.home-header-user-img {
-    font-size: 25px;
-    margin: 14px 10px;
-    width: 32px;
-}
-
-.home-header-user-text {
-    color: #ffffff;
-    font-size: 17px;
-    margin: -45px 55px;
-    font-family: system-ui;
 }
