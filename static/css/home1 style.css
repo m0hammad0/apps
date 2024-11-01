@@ -137,8 +137,8 @@ ul li:hover a {
 }
 
 .home-header-user-text {
-    color: #ffffff;
+    color: red;
     font-size: 17px;
-    margin: -43px 55px;
+    margin: -40px 55px;
     font-family: system-ui;
 }
