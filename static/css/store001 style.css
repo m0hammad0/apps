@@ -35,94 +35,104 @@ a {
     padding-top: 10px;
 }
 
-.apps1-button1 {
-    font-family: 'font1';
-    color: white;
-    font-size: 12px;
-    padding: 10px 15px;
-    border-radius: 25px;
-    border: 1px solid;
-    float: right;
-    margin: 5px 25px;
-    background: #060E9f;
-}
-
-.apps1-button2 {
+.apps1-apps1, .apps1-apps2, .apps1-apps3 {
+    background: #ffffff;
     display: flex;
-    font-family: 'font1';
-    color: white;
-    font-size: 12px;
-    padding: 10px 31px;
-    border-radius: 25px;
-    border: 1px solid;
-    float: right;
-    margin: 5px 2px;
-    background: #794387;
+    justify-content: center;
+    margin: 0px 10px;
 }
 
 .apps1-button3 {
-    display: flex;
-    font-family: 'font1';
+    background: #060E9f;
     color: white;
     font-size: 12px;
-    padding: 10px 39px;
+    font-family: 'font1';
     border-radius: 25px;
     border: 1px solid;
-    float: left;
-    margin: 5px 25px;
-    background: #ef6c00;
+    padding: 10px 15px;
+    margin: 5px 0px;
 }
 
-.apps1-button4 {
-    display: flex;
-    font-family: 'font1';
+.apps1-button2 {
+    background: #794387;
     color: white;
     font-size: 12px;
-    padding: 10px 40px;
+    font-family: 'font1';
     border-radius: 25px;
     border: 1px solid;
-    float: right;
-    margin: 5px 25px;
-    background: #0aca9b;
-}
-
-.apps1-button5 {
-    display: flex;
-    font-family: 'font1';
-    color: white;
-    font-size: 12px;
     padding: 10px 33px;
+    margin: 5px 8px;
+}
+
+.apps1-button1 {
+    background: #ef6c00;
+    color: white;
+    font-size: 12px;
+    font-family: 'font1';
     border-radius: 25px;
     border: 1px solid;
-    float: right;
-    margin: 5px 2px;
-    background: #59ad50;
+    padding: 10px 40px;
+    margin: 5px 0px;
 }
 
 .apps1-button6 {
-    display: flex;
-    font-family: 'font1';
+    background: #0aca9b;
     color: white;
     font-size: 12px;
-    padding: 10px 39px;
-    border-radius: 25px;
-    border: 1px solid;
-    float: left;
-    margin: 5px 25px;
-    background: #8056E1;
-}
-
-.apps1-button7 {
-    display: flex;
     font-family: 'font1';
-    color: white;
-    font-size: 12px;
-    padding: 10px 36px;
     border-radius: 25px;
     border: 1px solid;
     float: right;
-    margin: 5px 25px;
+    padding: 10px 40px;
+    margin: 5px 0px;
+}
+
+.apps1-button5 {
+    background: #59ad50;
+    color: white;
+    font-size: 12px;
+    font-family: 'font1';
+    border-radius: 25px;
+    border: 1px solid;
+    float: right;
+    padding: 10px 35px;
+    margin: 5px 8px;
+}
+
+.apps1-button4 {
+    background: #8056e1;
+    color: white;
+    font-size: 12px;
+    font-family: 'font1';
+    border-radius: 25px;
+    border: 1px solid;
+    float: right;
+    padding: 10px 40px;
+    margin: 5px 0px;
+}
+
+.apps1-button7 {
     background: #07ad70;
+    color: white;
+    font-size: 12px;
+    font-family: 'font1';
+    border-radius: 25px;
+    border: 1px solid;
+    float: right;
+    padding: 10px 38px;
+    margin: 5px 4px;
+}
+
+.apps1-button8 {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-family: 'font1';
+    border-radius: 25px;
+    border: 1px solid;
+    float: right;
+    padding: 10px 28px;
+    margin: 5px 4px;
 }
 
 .update1 {
@@ -134,7 +144,7 @@ a {
 }
 
 @media (min-width: 768px) {
-    .apps1-button2 {
+    /*.apps1-button2 {
         position: absolute;
         left: 48%;
     }
@@ -157,10 +167,10 @@ a {
         position: absolute;
         top: 168px;
         right: 22px;
-    }
+    }*/
 }
 
-@media (max-width: 430px) {
+/*@media (max-width: 430px) {
     .apps1-button3 {
         margin: 5px 5px;
     }
